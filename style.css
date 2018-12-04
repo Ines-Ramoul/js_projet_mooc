@@ -1,0 +1,70 @@
+
+body{
+    background : rgb(65, 126, 196);
+}
+table {
+    margin-top: 20px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    table-layout: auto;
+}
+  
+table, tr, td, th {
+    border: 1px solid;
+    color:white;
+    padding: 30 px;
+    
+    border: 1px solid #080808;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Helvetica;
+    background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  } 
+
+  p{
+      text-align: center;
+  }
+
+  h2{font-size: 25px;
+    font-stretch: expanded;
+    font-family: Helvetica;
+      text-align: center;
+  }
+  
+  fieldset {
+    padding:10px;
+    border-radius:10px;
+    font-size: 14px;
+    font-family: Helvetica;
+  }
+  
+  label, legend {
+    margin-bottom:10px;
+    font-size: 14px;
+    font-family: Helvetica;
+    display: flex;
+  }
+  button{
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+  input {
+    float:right;
+    margin-right:70px;
+    width:150px;
+  }
+  
+  input:invalid {
+    background-color:paleturquoise;
+  }
+  
+  input:valid {
+    background-color:lightgreen;
+  }
